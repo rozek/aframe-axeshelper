@@ -30,7 +30,7 @@ Otherwise, load the plain script file directly
 
 ## Usage ##
 
-Once loaded or imported, you may use the `aframe-axeshelper` either a an A-Frame component (usually for an already existing A-Frame entity)
+Once loaded or imported, you may use the `aframe-axeshelper` either as an A-Frame component (usually for an already existing A-Frame entity)
 
 ```html
 <a-scene>
