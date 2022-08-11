@@ -53,6 +53,7 @@ whatever seems more appropriate.
 Here is a complete example (albeit without the HTML boilerplate)
 
 ```html
+<script src="https://unpkg.com/aframe"></script>
 <script src="https://unpkg.com/aframe-axeshelper"></script>
 
 <a-scene>
