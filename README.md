@@ -56,7 +56,7 @@ Here is a complete example (albeit without the HTML boilerplate)
 <script src="https://unpkg.com/aframe-axeshelper"></script>
 
 <a-scene>
-  <a-sky color="#ECECEC"></a-sky>
+  <a-sky color="#808080"></a-sky>
 
   <a-box axeshelper position="0 0.5 -4"/>
   <a-axeshelper position="1 1 -3" rotation="45 30 15"/>
