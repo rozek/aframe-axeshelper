@@ -26,9 +26,25 @@ Otherwise, load the plain script file directly
 <script src="https://unpkg.com/aframe-axeshelper"></script>
 ```
 
+## Usage ##
 
+Once loaded or imported, you may use the `aframe-axeshelper` either a an A-Frame component
 
+```html
+<a-scene>
+  <a-entity axeshelper position="1 1 -3" rotation="45 30 15"/>
+</a-scene>
+```
 
+or as an A-Frame primitive
+
+```html
+<a-scene>
+  <a-axeshelper position="1 1 -3" rotation="45 30 15"/>
+</a-scene>
+```
+
+whatever seems more appropriate.
 
 ## License ##
 
