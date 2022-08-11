@@ -46,6 +46,24 @@ or as an A-Frame primitive
 
 whatever seems more appropriate.
 
+### Example ###
+
+Here is a complete example (albeit without the HTML boilerplate)
+
+```html
+<script src="https://unpkg.com/aframe-axeshelper"></script>
+
+<a-scene>
+  <a-sky color="#ECECEC"></a-sky>
+
+  <a-box axeshelper position="0 0.5 -4"/>
+  <a-axeshelper position="1 1 -3" rotation="45 30 15"/>
+
+  <a-plane width="4" height="4" color="#7BC8A4"
+    position="0 -0.001 -4" rotation="-90 0 0"></a-plane>
+</a-scene>
+```
+
 ## Build Instructions ##
 
 You may easily build this package yourself.
