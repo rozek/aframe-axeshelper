@@ -28,11 +28,11 @@ Otherwise, load the plain script file directly
 
 ## Usage ##
 
-Once loaded or imported, you may use the `aframe-axeshelper` either a an A-Frame component
+Once loaded or imported, you may use the `aframe-axeshelper` either a an A-Frame component (usually for an already existing A-Frame entity)
 
 ```html
 <a-scene>
-  <a-entity axeshelper position="1 1 -3" rotation="45 30 15"/>
+  <a-box axeshelper position="1 1 -3" rotation="45 30 15"/>
 </a-scene>
 ```
 
