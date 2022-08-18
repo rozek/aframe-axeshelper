@@ -16,7 +16,7 @@ For the ESM variant, install the package into your build environment using [NPM]
 npm install aframe-axeshelper
 ```
 
-and `import` it in your code whereever needed
+and `import` it into your code whereever needed
 
 ```javascript
 import "aframe-axeshelper"
