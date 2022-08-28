@@ -1,36 +1,36 @@
-# aframe-axeshelper #
+# aframe-axeshelper-component #
 
 a trivial [A-Frame](https://aframe.io/) component and primitive for the [Three.js](https://threejs.org/) [AxesHelper](https://threejs.org/docs/#api/en/helpers/AxesHelper)
 
 ![Example Screenshot](./screenshot.png)
 
-**NPM users**: please consider the [Github README](https://github.com/rozek/aframe-axeshelper/blob/main/README.md) for the latest description of this package (as updating the docs would otherwise always require a new NPM package version)
+**NPM users**: please consider the [Github README](https://github.com/rozek/aframe-axeshelper-component/blob/main/README.md) for the latest description of this package (as updating the docs would otherwise always require a new NPM package version)
 
 ## Installation ##
 
-`aframe-axeshelper` may be used as an ECMAScript module (ESM) or explicitly loaded after the `<script>` tag for A-Frame itself.
+`aframe-axeshelper-component` may be used as an ECMAScript module (ESM) or explicitly loaded after the `<script>` tag for A-Frame itself.
 
 For the ESM variant, install the package into your build environment using [NPM](https://docs.npmjs.com/) with the command
 
 ```
-npm install aframe-axeshelper
+npm install aframe-axeshelper-component
 ```
 
 and `import` it into your code whereever needed
 
 ```javascript
-import "aframe-axeshelper"
+import "aframe-axeshelper-component"
 ```
 
 Otherwise, load the plain script file directly
 
 ```html
-<script src="https://unpkg.com/aframe-axeshelper"></script>
+<script src="https://unpkg.com/aframe-axeshelper-component"></script>
 ```
 
 ## Usage ##
 
-Once loaded or imported, you may use the `aframe-axeshelper` either as an A-Frame component (usually for an already existing A-Frame entity)
+Once loaded or imported, you may use the `aframe-axeshelper-component` either as an A-Frame component (usually for an already existing A-Frame entity)
 
 ```html
 <a-scene>
@@ -73,7 +73,7 @@ You may easily build this package yourself.
 
 Just install [NPM](https://docs.npmjs.com/) according to the instructions for your platform and follow these steps:
 
-1. either clone this repository using [git](https://git-scm.com/) or [download a ZIP archive](https://github.com/rozek/aframe-axeshelper/archive/refs/heads/main.zip) with its contents to your disk and unpack it there 
+1. either clone this repository using [git](https://git-scm.com/) or [download a ZIP archive](https://github.com/rozek/aframe-axeshelper-component/archive/refs/heads/main.zip) with its contents to your disk and unpack it there 
 2. open a shell and navigate to the root directory of this repository
 3. run `npm install` in order to install the complete build environment
 4. execute `npm run build` to create a new build
