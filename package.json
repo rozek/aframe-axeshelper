@@ -1,6 +1,6 @@
 {
   "name": "aframe-axeshelper",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "a trivial A-Frame component and primitive for the Three.js AxesHelper",
   "type": "module",
   "main": "./dist/aframe-axeshelper.js",
@@ -27,7 +27,10 @@
     "javascript",
     "typescript",
     "a-frame",
-    "three-js"
+    "three-js",
+    "threejs",
+    "component",
+    "primitive"
   ],
   "author": "Andreas Rozek <a.rozek@gmx.de> (https://www.rozek.de/)",
   "license": "MIT",
