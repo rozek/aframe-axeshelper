@@ -27,4 +27,4 @@ if (AFRAME.primitives.primitives['a-axeshelper'] == null) {
 else {
     console.warn('an A-Frame primitive called "a-axeshelper" exists already');
 }
-//# sourceMappingURL=aframe-axeshelper-component.esm.js.map
+//# sourceMappingURL=aframe-axeshelper.esm.js.map
